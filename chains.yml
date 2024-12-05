@@ -1,0 +1,467 @@
+chains:
+  - result: "Card Box"
+    events:
+      - description: "Get Card Box"
+        trigger: "Talk to Card Man"
+        location: ["Grey Chamber", "Naraka"]
+        image: "img/card_man.png"
+
+  - result: "Umbrella"
+    events:
+      - description: "Rainy city scene"
+        trigger: "Purple Faces Door #1"
+        location: ["Naraka"]
+        image: "img/purple_face_door.png"
+
+  - result: "Sun"
+    requirement: "Umbrella"
+    events:
+      - description: "Recieve the sun"
+        trigger: "Talk to The Sun"
+        location: ["Naraka"]
+        result: "Unlock Nyanko"
+        image: "img/sun.png"
+
+  - result: "Mirror"
+    events:
+      - description: "Chromed Fellow encounter"
+        trigger: "Talk to Viator"
+        location: ["Naraka"]
+        image: "img/viator.png"
+
+  - result: "Coffee"
+    events:
+      - description: "Coffee talk 1"
+        trigger: "Talk to Dementia"
+        location: ["Vicsine", "Naraka"]
+        image: "img/dementia.png"
+      - description: "Coffee talk 2"
+        trigger: "Talk to Dementia"
+        location: ["Vicsine", "Naraka"]
+        image: "img/dementia.png"
+      - description: "Coffee talk 3"
+        trigger: "Talk to Dementia"
+        location: ["Vicsine", "Naraka"]
+        image: "img/dementia.png"
+
+  - result: "Toy Car"
+    events:
+      - description: "Meet Amelia"
+        trigger: "Talk to Amelia"
+        location: ["Naraka"]
+        image: "img/amelia.png"
+      - description: "Help Amelia"
+        trigger: "Talk to Amelia"
+        location: ["Naraka"]
+        image: "img/amelia.png"
+      - description: "Toshi's office event"
+        trigger: "Talk to Lyssa"
+        location: ["Angelic", "Naraka"]
+        image: "img/lyssa.png"
+      - description: "Toshi's family event"
+        trigger: "Talk to Toshi"
+        location: ["Naraka"]
+        image: "img/toshi.png"
+
+  - result: "Artichoke"
+    events:
+      - description: "Esme talk 1"
+        trigger: "Talk to Esme"
+        location: ["Vicsine", "Naraka"]
+        image: "img/esme.png"
+      - description: "Esme talk 2"
+        trigger: "Talk to Esme"
+        location: ["Vicsine", "Naraka"]
+        image: "img/esme.png"
+      - description: "Encourage Meri 1"
+        trigger: "Talk to Meri"
+        location: ["Vicsine", "Naraka"]
+        image: "img/meri.png"
+      - description: "Encourage Meri 2"
+        trigger: "Talk to Meri"
+        location: ["Vicsine", "Naraka"]
+        image: "img/meri.png"
+      - description: "Esme talk 3"
+        trigger: "Talk to Esme"
+        location: ["Vicsine", "Naraka"]
+        image: "img/esme.png"
+      - description: "Last Meri talk"
+        trigger: "Talk to Meri"
+        location: ["Vicsine", "Naraka"]
+        image: "img/meri.png"
+
+  - result: "Paper Doll"
+    events:
+      - description: "Meetup with Chiyo 1"
+        trigger: "Talk to Ori"
+        location: ["Vicsine", "Naraka"]
+        image: "img/ori.png"
+      - description: "Meetup with Chiyo 2"
+        trigger: "Talk to Ori"
+        location: ["Vicsine", "Naraka"]
+        image: "img/ori.png"
+      - description: "Meetup with Chiyo 3"
+        trigger: "Talk to Ori"
+        location: ["Vicsine", "Naraka"]
+        image: "img/ori.png"
+      - description: "Talk with Chiyo 1"
+        trigger: "Talk to Chiyo"
+        location: ["Vicsine", "Naraka"]
+        image: "img/chiyo.png"
+      - description: "Talk with Chiyo 2"
+        trigger: "Talk to Chiyo"
+        location: ["Vicsine", "Naraka"]
+        image: "img/chiyo.png"
+      - description: "Ori dies :("
+        trigger: "Talk to Ori"
+        location: ["Vicsine", "Naraka"]
+        image: "img/ori.png"
+
+  - result: "Sitar"
+    events:
+      - description: "Talk with Cat 1"
+        trigger: "Talk to Bakeneko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/bakeneko_hat.png"
+      - description: "Talk with Cat 2"
+        trigger: "Talk to Bakeneko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/bakeneko_hat.png"
+      - description: "Jomon scene"
+        trigger: "Talk to Jomon"
+        location: ["Naraka"]
+        image: "img/jomon.png"
+      - description: "Jomon cards"
+        trigger: "Talk to Jomon"
+        location: ["Naraka"]
+        image: "img/jomon.png"
+      - description: "Talk with Cat 3"
+        trigger: "Talk to Bakeneko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/bakeneko.png"
+      - description: "Talk with Cat 4"
+        trigger: "Talk to Bakeneko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/bakeneko.png"
+      - description: "Talk with Cat 5"
+        trigger: "Talk to Bakeneko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/bakeneko.png"
+      - description: "Talk with Cat 6"
+        trigger: "Talk to Bakeneko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/bakeneko.png"
+
+  - result: "Sundial"
+    events:
+      - description: "Mel sleeping 1"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Mel sleeping 2"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Mel sleeping 3"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Mel sleeping 4"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Mel sleeping 5"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Spyglass event 1"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Spyglass event 2"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Spyglass event 3"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Spyglass event 4"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Spyglass event 5"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        requirement: "Sitar"
+        image: "img/grey_face_door.png"
+      - description: "Spyglass event 6"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+      - description: "Spyglass event 7"
+        trigger: "Grey Faces Door"
+        location:
+          - "Angelic"
+          - "Narka"
+        image: "img/grey_face_door.png"
+
+  - result: "Cigarettes"
+    events:
+      - description: "Jester talk"
+        trigger: "Talk to Jester"
+        location:
+          - "Naraka"
+        image: "img/jester.png"
+      - description: "Train ride and city with Mel"
+        trigger: "Talk to Jester"
+        location:
+          - "Subway"
+        image: "img/jester.png"
+      - description: "Prison break with Mel"
+        trigger: "Talk to Rat"
+        location:
+          - "Subway"
+        image: "img/rat.png"
+
+  - result: "PC"
+    events:
+      - description: "Gomi talk 1"
+        trigger: "Talk to Gomi"
+        location:
+          - "Vicsine"
+          - "Naraka"
+        image: "img/gomi.png"
+      - description: "Gomi talk 2"
+        trigger: "Talk to Gomi"
+        location:
+          - "Vicsine"
+          - "Naraka"
+        image: "img/gomi.png"
+      - description: "Help Gomi find key"
+        trigger: "Talk to Gomi"
+        location:
+          - "Vicsine"
+          - "Naraka"
+        image: "img/gomi.png"
+      - description: "Get Apartment Key"
+        trigger: "Talk to Yakui"
+        location:
+          - "Naraka"
+        result: "Apartment Key"
+        requirement: "Cigarettes"
+        image: "img/yakui.png"
+      - description: "Gomi's room tour"
+        trigger: "Talk to Gomi"
+        location:
+          - "Vicsine"
+          - "Naraka"
+        image: "img/gomi.png"
+
+  - result: "Floppy Disk"
+    events:
+      - description: "Vicsine talk 1"
+        trigger: "Talk to Vicsine"
+        location: ["Grey Chamber", "Naraka"]
+        image: "img/vicsine.png"
+      - description: "Vicsine talk 2"
+        trigger: "Talk to Vicsine"
+        location: ["Grey Chamber", "Naraka"]
+        image: "img/vicsine.png"
+      - description: "Help with virus"
+        trigger: "Talk to Vicsine"
+        location: ["Grey Chamber", "Naraka"]
+        image: "img/vicsine.png"
+      - description: "Konpy interaction"
+        trigger: "Talk to Konpy"
+        location: ["Naraka"]
+        image: "img/konpy.png"
+      - description: "Get rid of Konpy"
+        trigger: "Talk to Konpy"
+        location: ["Naraka"]
+        requirement: "PC"
+        image: "img/konpy.png"
+      - description: "Vicsine is thankful"
+        trigger: "Talk to Vicsine"
+        location: ["Grey Chamber", "Naraka"]
+        image: "img/vicsine.png"
+
+  - result: "Gumballs"
+    events:
+      - description: "Taidana talk 1"
+        trigger: "Talk to Taidana"
+        location: ["Vicsine", "Naraka"]
+        image: "img/taidana.png"
+      - description: "Taidana card duel"
+        trigger: "Talk to Taidana"
+        location: ["Vicsine", "Naraka"]
+        requirement: "Card Box"
+        image: "img/taidana.png"
+      - description: "Taidana talk 3"
+        trigger: "Talk to Taidana"
+        location: ["Vicsine", "Naraka"]
+        image: "img/taidana.png"
+      - description: "Taidana talk 4 with Ayumu"
+        trigger: "Talk to Taidana"
+        location: ["Vicsine", "Naraka"]
+        image: "img/taidana.png"
+      - description: "Taidana talk 5 with Mel"
+        trigger: "Talk to Taidana"
+        location: ["Vicsine", "Naraka"]
+        requirement: "Umbrella"
+        image: "img/taidana.png"
+      - description: "Taidana talk 5 with Gomi"
+        trigger: "Talk to Taidana"
+        location: ["Vicsine", "Naraka"]
+        requirement: "Apartment Key"
+        image: "img/taidana.png"
+
+  - result: "Gold Rose"
+    events:
+      - description: "Himiko introduction"
+        trigger: "Talk to Himiko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/himiko.png"
+      - description: "Himiko brings you home"
+        trigger: "Talk to Himiko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/himiko.png"
+      - description: "Himiko and Mel interaction"
+        trigger: "Talk to Himiko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/himiko.png"
+      - description: "Himiko city scene"
+        trigger: "Talk to Taidana"
+        location: ["Subway"]
+        image: "img/taidana.png"
+      - description: "Himiko premonitions talk"
+        trigger: "Talk to Himiko"
+        location: ["Vicsine", "Naraka"]
+        image: "img/himiko.png"
+      - description: "Lilum event"
+        trigger: "Mel's Grey Door"
+        location: ["Angelic", "Vicsine", "Naraka"]
+        image: "img/mel_grey_door.png"
+      - description: "Himiko dies :("
+        trigger: "Mel's Grey Door"
+        location: ["Angelic", "Vicsine", "Naraka"]
+        image: "img/mel_grey_door.png"
+      - description: "Lilum talk 1"
+        trigger: "Talk to Lilum"
+        location: ["Rusted", "Naraka"]
+        image: "img/lilum.png"
+      - description: "Meet Saren"
+        trigger: "Talk to Saren"
+        location: ["Naraka"]
+        image: "img/saren.png"
+      - description: "Saren and alien scene"
+        trigger: "Talk to Saren"
+        location: ["Naraka"]
+        image: "img/saren.png"
+      - description: "Obtain Gold Rose"
+        trigger: "Asphodel Door"
+        location: ["Angelic", "Naraka"]
+        image: "img/asphodel_door.png"
+
+  - result: "8 Ball"
+    requirement: "Gold Rose"
+    events:
+      - description: "Lilum talk 1"
+        trigger: "Talk to Lilum"
+        location: ["Rusted", "Naraka"]
+        image: "img/lilum.png"
+      - description: "Lilum talk 2"
+        location: ["Rusted", "Naraka"]
+        trigger: "Talk to Lilum"
+        image: "img/lilum.png"
+        result: "Mark of Lilith"
+      - description: "Lilith is defeated"
+        trigger: "Kill Lilith"
+        location: ["Naraka"]
+        image: "img/lilith.png"
+      - description: "Obtain 8 Ball"
+        trigger: "Talk to Lyssa [Angelic, Naraka]"
+        location: ["Angelic", "Naraka"]
+        image: "img/lyssa.png"
+
+  - result: "Odd Figurine"
+    events:
+      - description: "Golden Church event"
+        trigger: "Go to Golden Church"
+        location: ["Grey Chamber", "Celare"]
+        image: "img/gold_church.jpg"
+      - description: "Obtain Odd Figurine"
+        trigger: "Go to Golden Church"
+        location: ["Grey Chamber", "Celare"]
+        requirement: "Gold Rose"
+        image: "img/gold_church.jpg"
+
+  - result: "Intestines"
+    events:
+      - description: "Meet Horned Woman"
+        trigger: "Rusted Door #1"
+        location: ["Rusted", "Naraka"]
+        result: "Rusted Key"
+        image: "img/rusted_door.png"
+      - description: "Iron Maiden lift"
+        trigger: "Rusted Door #2"
+        location: ["Rusted", "Naraka"]
+        image: "img/rusted_door.png"
+      - description: "Meet Angel of Forgiveness"
+        trigger: "Angelic Door #1"
+        location: ["Rusted", "Naraka"]
+        image: "img/angelic_door.png"
+      - description: "Obtain Intestines"
+        trigger: "Rusted Door #3"
+        location: ["Red Spheres", "Naraka"]
+        image: "img/rusted_door.png"
+
+  - result: "Hand Drill"
+    events:
+      - description: "Doctor talk 1"
+        trigger: "Talk to Doctor"
+        location: ["Vicsine", "Naraka"]
+        image: "img/doctor.png"
+      - description: "Doctor talk 2"
+        trigger: "Talk to Doctor"
+        location: ["Vicsine", "Naraka"]
+        image: "img/doctor.png"
+      - description: "Doctor talk 3"
+        trigger: "Talk to Doctor"
+        location: ["Vicsine", "Naraka"]
+        requirement: "Intestines"
+        image: "img/doctor.png"
+      - description: "Horned Woman scene"
+        trigger: "Rusted Door #2"
+        location: ["Rusted", "Naraka"]
+        image: "img/rusted_door.png"
+      - description: "Doctor talk 4 with Mel"
+        trigger: "Talk to Doctor"
+        location: ["Vicsine", "Naraka"]
+        image: "img/doctor.png"
+      - description: "Obtain Hand Drill"
+        trigger: "Talk to Doctor"
+        location: ["Vicsine", "Naraka"]
+        image: "img/doctor.png"
