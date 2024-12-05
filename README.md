@@ -11,7 +11,7 @@ It allows you to track your progress by telling you what you need to do to trigg
 
 **I strongly advise not using this tool on your first playthough of the game**. The game is best enjoyed blind, and I recommend using this tool only after you're very familiar with the story and have gotten all the endings at least once. It can be useful for speedruns or for casual playthroughs when you're really stuck somewhere and you want to avoid that.
 
-## Credits & Legal:
+## Credits & Legal
 The code for the tracker is written by me ([Anic](https://github.com/AnicJov)) and is licensed under the [GPLv3 software license](https://github.com/AnicJov/DST-Tracker/blob/main/LICENSE).
 
 The game Disillusion ST and all of its assets are property of the [Disillusion Dev](https://store.steampowered.com/search/?developer=Disillusion%20Dev) team and are used in this project under explicit permission (they are under the [img/ directory](https://github.com/AnicJov/DST-Tracker/tree/main/img)).
