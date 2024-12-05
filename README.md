@@ -14,9 +14,9 @@ It allows you to track your progress by telling you what you need to do to trigg
 ## Credits & Legal:
 The code for the tracker is written by me ([Anic](https://github.com/AnicJov)) and is licensed under the [GPLv3 software license](https://raw.githubusercontent.com/AnicJov/DST-Tracker/main/LICENSE).
 
-The game Disillusion ST and all of its assets are property of the [Disillusion Dev](https://store.steampowered.com/search/?developer=Disillusion%20Dev) team and are used in this project under explicit permission (they are under the [img/ directory](https://raw.githubusercontent.com/AnicJov/DST-Tracker/main/img)).
+The game Disillusion ST and all of its assets are property of the [Disillusion Dev](https://store.steampowered.com/search/?developer=Disillusion%20Dev) team and are used in this project under explicit permission (they are under the [img/ directory](https://github.com/AnicJov/DST-Tracker/tree/main/img)).
 
-Huge thanks to [Altotas](https://steamcommunity.com/id/altotas) for their [Events Compendium guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3359000833) and [Applesgosh](https://www.twitch.tv/applesgosh_) for their progress tracking spreadsheets and continued help and knowledge about the game. Without these two this tracker wouldn't exist and all the credit for the events defined in [`chains.yml`](https://raw.githubusercontent.com/AnicJov/DST-Tracker/main/chains.yml) goes to them.
+Huge thanks to [Altotas](https://steamcommunity.com/id/altotas) for their [Events Compendium guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3359000833) and [Applesgosh](https://www.twitch.tv/applesgosh_) for their progress tracking spreadsheets and continued help and knowledge about the game. Without these two this tracker wouldn't exist and all the credit for the events defined in [`chains.yml`](https://github.com/AnicJov/DST-Tracker/blob/main/chains.yml) goes to them.
 
 # Usage
 ## Running from binary release
@@ -72,7 +72,7 @@ Prerequisites: [Git](https://git-scm.com/downloads/win), [Python](https://www.py
     ```
 
 # Modifying the chains and events
-If you want to track different chains and events (e.g. for different endings) you can do so by modifying the [`chain.yml`](https://raw.githubusercontent.com/AnicJov/DST-Tracker/main/chains.yml) file.
+If you want to track different chains and events (e.g. for different endings) you can do so by modifying the [`chain.yml`](https://github.com/AnicJov/DST-Tracker/blob/main/chains.yml) file.
 That is where all the events are defined and loaded on program startup.
 The file uses [YAML syntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) and is structured as follows:
 
