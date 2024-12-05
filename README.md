@@ -1,7 +1,7 @@
 # Disillusion ST Progress Tracker
 
 <p align="center">
-<img src"https://raw.githubusercontent.com/AnicJov/DST-Tracker/main/img/screenshot.png"/>
+<img src="https://raw.githubusercontent.com/AnicJov/DST-Tracker/main/img/screenshot.png"/>
 </p>
 
 Cross-platform tool to track completion progress in the game [Disillusion ST](https://store.steampowered.com/app/2775370/Disillusion_ST/).
